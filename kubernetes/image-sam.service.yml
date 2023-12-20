@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: image-sam-service
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   ports:
     - name: http
       port: 8787
