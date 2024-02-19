@@ -70,6 +70,7 @@ class MyService(Service):
                 ),
             ],
             has_ai=True,
+            docs_url="https://docs.swiss-ai-center.ch/reference/services/image-sam/",
         )
         self._logger = get_logger(settings)
         sam = sam_model_registry["vit_b"](checkpoint="../model/sam_vit_b_01ec64.pth")
