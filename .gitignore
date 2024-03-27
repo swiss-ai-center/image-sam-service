@@ -23,3 +23,5 @@ coverage.xml
 ## macOS
 .DS_Store
 
+## Models
+/model
